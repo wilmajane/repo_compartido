@@ -146,7 +146,8 @@ public class calculadorNominas extends JFrame {
 				double retenciones = (salarioBruto*15)/100;
 				double salarioNeto = salarioBruto-retenciones;
 				
-				
+
+				textRes.append("Nomina calculada segun datos del usuario");
 				textRes.append("Trabajador: " + nombre + " " + apellidos + "\n");
 				textRes.append("NIF: " + nif + "\n");
 				textRes.append("NSS: " + nss + "\n");
