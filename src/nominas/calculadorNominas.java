@@ -147,8 +147,9 @@ public class calculadorNominas extends JFrame {
 				double salarioNeto = salarioBruto-retenciones;
 				
 
-				textRes.append("Nomina calculada segun datos del usuario");
-				textRes.append("Trabajador: " + nombre + " " + apellidos + "\n");
+				textRes.append("Trabajador a mostrar nomina: \n");
+				textRes.append(nombre + " " + apellidos + "\n");
+				textRes.append("Información de la nomina segun los datos recibidos del trabajador \n");
 				textRes.append("NIF: " + nif + "\n");
 				textRes.append("NSS: " + nss + "\n");
 				textRes.append("Tarifa en horas: " + tarifa + "\n");
@@ -157,9 +158,7 @@ public class calculadorNominas extends JFrame {
 				textRes.append("Bonificacion: " + bonificacion + "\n");
 				textRes.append("Salario Bruto: " + salarioBruto + "\n");
 				textRes.append("Retenciones: " + retenciones + "\n");
-				textRes.append("Salario Neto: " + salarioNeto + "\n");
-
-				
+				textRes.append("Salario Neto: " + salarioNeto + "\n");	
 			}
 		});
 		btnMostrar.setBounds(53, 239, 89, 23);
